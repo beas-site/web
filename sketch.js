@@ -34,7 +34,7 @@ function changeColor() {
 function draw() {
   
   /* Color the background over and over */
-  //background(bgcolor);
+  background(bgcolor);
   
   /* Draw a line on the background */
   line(40, 0, 400, 340);
