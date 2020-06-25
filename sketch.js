@@ -14,11 +14,6 @@ function setup() {
   /* createP("Deze paragraaf is gemaakt in Javascript."); */
 }
 
-function mousePressed() {
-createP("Het winnende getal is " + random(0, 100) ".");
-}
-
-
 /* Set up the draw function over and over */
 function draw() {
   /* Color the background over and over */
@@ -51,5 +46,5 @@ function draw() {
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
   background(200, 0, 220);
-  
+  createP("Het winnende getal is " + random(0, 100) ".");
 }
