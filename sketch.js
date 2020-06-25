@@ -12,9 +12,9 @@ function setup() {
   
   /* Color the background once */
   bgcolor = color(200, 0, 220);
-  
-  h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst en de kleur van de canvas');
   createButton("Klik hier");
+  h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst en de kleur van de canvas');
+  
   
 }
 
