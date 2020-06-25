@@ -5,6 +5,7 @@ var circleX = 0;
 var bgcolor;
 var button;
 var h1;
+var input;
 
 /* Set up the Canvas */
 function setup() {
@@ -15,6 +16,8 @@ function setup() {
   createP("");
   button = createButton("Klik hier om de kleur te veranderen.");
   button.mousePressed(changeColor);
+  createP("");
+  input = createInput ('type hier je naam');
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst. Als je op klik hier klikt verandert de achtergrond van de canvas.');  
   
 }
