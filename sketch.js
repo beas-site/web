@@ -23,11 +23,11 @@ function changeColor() {
 }
 
 /* Set up an event function, happens only if the user pressed the mouse */
-function mousePressed() {
+/*function mousePressed() {
   h1.html("Hieronder de winnende getallen:");
   createP("Het winnende getal is " + random(0, 100) + ".");
  
-}
+}*/
 
 /* Set up the draw function over and over */
 function draw() {
