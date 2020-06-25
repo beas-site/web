@@ -12,7 +12,7 @@ function setup() {
   
   /* Color the background once */
   bgcolor = color(200, 0, 220);
-  createP('');
+  createP("");
   button = createButton("Klik hier om de kleur te veranderen.");
   button.mousePressed(changeColor);
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst. Als je op klik hier klikt verandert de achtergrond van de canvas.');  
