@@ -26,7 +26,6 @@ function changeColor() {
 function mousePressed() {
   h1.html("Hieronder de winnende getallen:");
   createP("Het winnende getal is " + random(0, 100) + ".");
- //changeColor();
 }
 
 /* Set up the draw function over and over */
