@@ -46,5 +46,5 @@ function draw() {
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
   background(200, 0, 220);
-  createP("Het winnende getal is " + random(0, 100) ".");
+  createP("Het winnende getal is " + random(0, 100) + ".");
 }
