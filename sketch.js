@@ -9,6 +9,9 @@ function setup() {
   
   /* Color the background once */
   background(200, 0, 220);
+  
+  /* Create an p-element for HTML */
+  createP("Dit is een met JS gemaakt p-element.");
 }
 
 /* Set up the draw function over and over */
