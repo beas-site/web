@@ -11,7 +11,7 @@ function setup() {
   canvas = createCanvas(400, 400);
   
   /* Color the background once */
-  bgcolor(200, 0, 220);
+  bgcolor = color(200, 0, 220);
   
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst');
   
