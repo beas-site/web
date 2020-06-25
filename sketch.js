@@ -5,10 +5,13 @@ var circleX = 0;
 
 /* Set up the Canvas */
 function setup() {
-  createCanvas(200, 200);
+  createCanvas(400, 400);
   
   /* Color the background once */
   background(200, 0, 220);
+  
+  /* Create an p-element for HTML */
+  createP("test");
 }
 
 /* Set up the draw function over and over */
@@ -44,6 +47,4 @@ function draw() {
 function mousePressed() {
   background(200, 0, 220);
   
-  /* Create an p-element for HTML */
-  createP("test");
 }
