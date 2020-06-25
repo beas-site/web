@@ -51,15 +51,15 @@ function draw() {
   /* Draw the rectangle */
   rect(200, 150, slider.value(), slider.value());
   
-  /* Draw the name */
-  text("Hello", 200, 200);
-  
   /*Draw a ellipse*/
   fill(random(0, 255), random(0, 255), random(0 ,255));
   noStroke();
   ellipse(circleX, 200, 25, 25);
   
   circleX= circleX + 1;
+  
+  /* Draw the name */
+  text("Hello", 200, 200);
 }
 
 /* Set up an event function, happens only if the user pressed the mouse */
