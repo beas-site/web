@@ -14,7 +14,7 @@ function setup() {
   /* Color the background once */
   bgcolor = color(200, 0, 220);
   createButton("Klik hier");
-  button.mousePressed(changeColor);
+ 
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst. Als je op klik hier klikt verandert de achtergrond van de canvas.');  
 }
 
@@ -26,6 +26,7 @@ function changeColor() {
 function mousePressed() {
   h1.html("Hieronder de winnende getallen:");
   createP("Het winnende getal is " + random(0, 100) + ".");
+  button.mousePressed(changeColor);
 }
 
 /* Set up the draw function over and over */
