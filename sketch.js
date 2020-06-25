@@ -1,6 +1,6 @@
 /* Declare and initialize variables */
-// var Nameofthevariable = value of the variable
-//for instance var circleX = 50;
+/* var Nameofthevariable = value of the variable */
+/* for instance var circleX = 50; */
 var circleX = 0;
 
 /* Set up the Canvas */
@@ -11,7 +11,7 @@ function setup() {
   background(200, 0, 220);
   
   /* Create an p-element for HTML */
-  createP("Deze paragraaf is gemaakt in Javascript.");
+  /* createP("Deze paragraaf is gemaakt in Javascript."); */
   
 }
 function mousePressed() {
