@@ -5,12 +5,10 @@ var circleX = 0;
 
 /* Set up the Canvas */
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(200, 200);
   
   /* Color the background once */
   background(200, 0, 220);
-  
-  
 }
 
 /* Set up the draw function over and over */
