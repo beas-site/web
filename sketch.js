@@ -10,8 +10,7 @@ function setup() {
   /* Color the background once */
   background(200, 0, 220);
   
-  /* Create an p-element for HTML */
-  createP("test");
+  
 }
 
 /* Set up the draw function over and over */
@@ -46,4 +45,7 @@ function draw() {
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
   background(200, 0, 220);
+  
+  /* Create an p-element for HTML */
+  createP("test");
 }
