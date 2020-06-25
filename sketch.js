@@ -12,8 +12,8 @@ function setup() {
   
   /* Create an p-element for HTML */
   /* createP("Deze paragraaf is gemaakt in Javascript."); */
-  
 }
+
 function mousePressed() {
 createP("Het winnende getal is " + random(0, 100) ".");
 }
