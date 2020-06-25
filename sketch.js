@@ -52,7 +52,7 @@ function draw() {
   rect(200, 150, slider.value(), slider.value());
   
   /* Draw the name */
-  text("Hello", 200, 50);
+  text("Hello", 50, 200);
   
   /*Draw a ellipse*/
   fill(random(0, 255), random(0, 255), random(0 ,255));
