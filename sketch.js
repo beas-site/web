@@ -13,16 +13,18 @@ function setup() {
   /* Color the background once */
   bgcolor = color(200, 0, 220);
   createButton("Klik hier");
-  h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst en de kleur van de canvas');
-  
-  
+  h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst en de kleur van de canvas');  
+}
+
+function changeColor() {
+ bgcolor = color(random(255), random(255), random(255));
 }
 
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
   h1.html("Hieronder de winnende getallen:");
   createP("Het winnende getal is " + random(0, 100) + ".");
-  bgcolor = color(random(255), random(255), random(255));
+ changeColor();
 }
 
 /* Set up the draw function over and over */
