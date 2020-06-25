@@ -51,6 +51,9 @@ function draw() {
   /* Draw the rectangle */
   rect(200, 150, slider.value(), slider.value());
   
+  /* Draw the name */
+  text("Hello", 200, 200);
+  
   /*Draw a ellipse*/
   fill(random(0, 255), random(0, 255), random(0 ,255));
   noStroke();
