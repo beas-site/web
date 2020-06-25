@@ -22,8 +22,6 @@ function setup() {
   createP("");
   input = createInput ('type hier je naam');
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst. Als je op klik hier klikt verandert de achtergrond van de canvas.'); 
- 
-  
 }
 
 function changeColor() {
