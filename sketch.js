@@ -37,6 +37,9 @@ function draw() {
   /* Draw a line on the background */
   line(40, 0, 400, 340);
   
+    /* Draw the name */
+  text("Hello", 200, 50);
+  
   /* Draw a rectangle on the line in the middle of the Canvas */
   rectMode(CENTER);
   
@@ -49,9 +52,6 @@ function draw() {
   
   /* Draw the rectangle */
   rect(200, 150, 150, 150);
-  
-  /* Draw the name */
-  text("Hello", 200, 50);
   
   /*Draw a ellipse*/
   fill(random(0, 255), random(0, 255), random(0 ,255));
