@@ -11,7 +11,7 @@ function setup() {
   background(200, 0, 220);
   
   /* Create an p-element for HTML */
-  createP("test");
+  createP("Deze paragraaf is gemaakt in Javascript.");
 }
 
 /* Set up the draw function over and over */
