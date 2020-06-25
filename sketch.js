@@ -51,7 +51,6 @@ function draw() {
   rect(200, 150, 150, 150);
   
   /* Draw the name */
-  noFill();
   text("Hello", 200, 50);
   
   /*Draw a ellipse*/
