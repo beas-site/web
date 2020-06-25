@@ -49,7 +49,7 @@ function draw() {
   strokeWeight(8);
   
   /* Draw the rectangle */
-  rect(200, 150, slider.value(), slider.value());
+  rect(200, 150, 150, 150);
   
   /* Draw the name */
   text("Hello", 200, 50);
@@ -57,7 +57,7 @@ function draw() {
   /*Draw a ellipse*/
   fill(random(0, 255), random(0, 255), random(0 ,255));
   noStroke();
-  ellipse(circleX, 200, 25, 25);
+  ellipse(circleX, 200, slide.value(), slide.value());
   
   circleX= circleX + 1;
 }
