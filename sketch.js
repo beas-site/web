@@ -1,33 +1,26 @@
 /* Declare and initialize variables */
-/* var Nameofthevariable = value of the variable */
-/* for instance var circleX = 50; */
+// var Nameofthevariable = value of the variable
+//for instance var circleX = 50;
 var circleX = 0;
-var canvas;
-var h1;
 var bgcolor;
 var button;
+var h1;
 
 /* Set up the Canvas */
 function setup() {
-  canvas = createCanvas(400, 400);
+  createCanvas(400, 400);
   
   /* Color the background once */
   bgcolor = color(200, 0, 220);
-  createButton("Klik hier");
+  button = createButton("Klik hier om de kleur te veranderen.");
   button.mousePressed(changeColor);
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst. Als je op klik hier klikt verandert de achtergrond van de canvas.');  
+  
 }
 
 function changeColor() {
- bgcolor = color(random(255), random(255), random(255));
+  bgcolor = color(random(255), random(255), random(255));
 }
-
-/* Set up an event function, happens only if the user pressed the mouse */
-/*function mousePressed() {
-  h1.html("Hieronder de winnende getallen:");
-  createP("Het winnende getal is " + random(0, 100) + ".");
- 
-}*/
 
 /* Set up the draw function over and over */
 function draw() {
@@ -58,3 +51,8 @@ function draw() {
   circleX= circleX + 1;
 }
 
+/* Set up an event function, happens only if the user pressed the mouse */
+function mousePressed() {
+  h1.html("Hieronder de winnende getallen:");
+  createP("Het winnende getal is " + random(0,10) + ".");
+}
