@@ -4,13 +4,14 @@
 var circleX = 0;
 var canvas;
 var h1;
+var bgcolor;
 
 /* Set up the Canvas */
 function setup() {
   canvas = createCanvas(400, 400);
   
   /* Color the background once */
-  //background(200, 0, 220);
+  bgcolor(200, 0, 220);
   
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst');
   
@@ -18,7 +19,7 @@ function setup() {
 
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
-  //background(200, 0, 220);
+  bgcolor(random(0, 255), random (0, 255) random(0, 255);
   h1.html("Hieronder de winnende getallen:");
   createP("Het winnende getal is " + random(0, 100) + ".");
 }
@@ -26,7 +27,7 @@ function mousePressed() {
 /* Set up the draw function over and over */
 function draw() {
   /* Color the background over and over */
-  background(200, 0, 220);
+  background(bgcolor);
   
   /* Draw a line on the background */
   line(40, 0, 400, 340);
