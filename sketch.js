@@ -2,13 +2,17 @@
 /* var Nameofthevariable = value of the variable */
 /* for instance var circleX = 50; */
 var circleX = 0;
+var canvas;
+var h1;
 
 /* Set up the Canvas */
 function setup() {
-  createCanvas(400, 400);
+  canvas = createCanvas(400, 400);
   
   /* Color the background once */
   background(200, 0, 220);
+  
+  h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst');
   
 }
 
