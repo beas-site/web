@@ -49,7 +49,7 @@ function draw() {
   strokeWeight(8);
   
   /* Draw the rectangle */
-  rect(200, 150, 150, 150);
+  rect(200, 150, slider.value(), slider.value());
   
   /*Draw a ellipse*/
   fill(random(0, 255), random(0, 255), random(0 ,255));
