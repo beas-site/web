@@ -18,7 +18,7 @@ function setup() {
   button = createButton("Klik hier om de kleur te veranderen.");
   button.mousePressed(changeColor);
   createP("");
-  slider = createSlider(10, 100, 86);
+  slider = createSlider(10, 300, 86);
   createP("");
   input = createInput ('type hier je naam');
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst. Als je op klik hier klikt verandert de achtergrond van de canvas.'); 
