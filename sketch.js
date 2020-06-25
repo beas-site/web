@@ -19,7 +19,7 @@ function setup() {
 
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
-  bgcolor(random(0, 255), random (0, 255) random(0, 255);
+  bgcolor(random(0, 255), (random (0, 255), random(0, 255));
   h1.html("Hieronder de winnende getallen:");
   createP("Het winnende getal is " + random(0, 100) + ".");
 }
