@@ -59,7 +59,7 @@ function draw() {
   circleX= circleX + 1;
   
   /* Draw the name */
-  text("Hello", 200, 200);
+  text("Hello", 150, 200);
 }
 
 /* Set up an event function, happens only if the user pressed the mouse */
