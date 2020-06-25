@@ -12,6 +12,7 @@ function setup() {
   
   /* Create an p-element for HTML */
   createP("Deze paragraaf is gemaakt in Javascript.");
+  createP("The answer is blowing in the wind.");
 }
 
 /* Set up the draw function over and over */
