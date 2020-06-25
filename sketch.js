@@ -20,8 +20,8 @@ function setup() {
 
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
-  //h1.html("Hieronder de winnende getallen:");
-  //createP("Het winnende getal is " + random(0, 100) + ".");
+  h1.html("Hieronder de winnende getallen:");
+  createP("Het winnende getal is " + random(0, 100) + ".");
   bgcolor = color(random(255), random(255), random(255));
 }
 
