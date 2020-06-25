@@ -10,7 +10,6 @@ function setup() {
   /* Color the background once */
   background(200, 0, 220);
   
-  createElement('h1', 'Hieronder de winnende getallen:');
 }
 
 /* Set up the draw function over and over */
@@ -45,5 +44,6 @@ function draw() {
 /* Set up an event function, happens only if the user pressed the mouse */
 function mousePressed() {
   background(200, 0, 220);
+  createElement('h1', 'Hieronder de winnende getallen:');
   createP("Het winnende getal is " + random(0, 100) + ".");
 }
