@@ -10,7 +10,7 @@ function setup() {
   canvas = createCanvas(400, 400);
   
   /* Color the background once */
-  background(200, 0, 220);
+  //background(200, 0, 220);
   
   h1 = createElement('h1', 'Als je op de muis klikt verandert deze tekst');
   
@@ -26,7 +26,7 @@ function mousePressed() {
 /* Set up the draw function over and over */
 function draw() {
   /* Color the background over and over */
-  //background(R,G,B);
+  background(200, 0, 220);
   
   /* Draw a line on the background */
   line(40, 0, 400, 340);
