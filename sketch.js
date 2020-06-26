@@ -7,6 +7,7 @@ var button;
 var h1;
 var input;
 var slider;
+var c = 255;
 
 /* Set up the Canvas */
 function setup() {
@@ -38,7 +39,7 @@ function draw() {
   line(40, 0, 400, 340);
   
     /* Draw the name */
-  text("Hello", 200, 50);
+  text(c, "Hello", 200, 50);
   
   /* Draw a rectangle on the line in the middle of the Canvas */
   rectMode(CENTER);
