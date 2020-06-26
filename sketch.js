@@ -56,7 +56,7 @@ function draw() {
   /*Draw a ellipse*/
   fill(random(0, 255), random(0, 255), random(0 ,255));
   noStroke();
-  ellipse(circleX, 200, slider.value(), slider.value());
+  ellipse(circleX, 250, slider.value(), slider.value());
   
   circleX= circleX + 1;
   
