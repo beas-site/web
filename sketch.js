@@ -16,7 +16,7 @@ function setup() {
   bgcolor = color(200, 0, 220);
   createP("");
   button = createButton("Klik hier om de kleur te veranderen.");
-  button.mousePressed(changeColor);
+  
   createP("");
   slider = createSlider(150, 200, 175);
   createP("");
@@ -59,6 +59,9 @@ function draw() {
   ellipse(circleX, 200, slide.value(), slide.value());
   
   circleX= circleX + 1;
+  
+  button.mousePressed(changeColor);
+  
 }
 
 /* Set up an event function, happens only if the user pressed the mouse */
