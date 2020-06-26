@@ -38,7 +38,7 @@ function draw() {
   line(40, 0, 400, 340);
   
     /* Draw the name */
-  text(input.value(), 200, 50);
+  text(input.value(), 200, 600);
   
   /* Draw a rectangle on the line in the middle of the Canvas */
   rectMode(CENTER);
