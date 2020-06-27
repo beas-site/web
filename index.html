@@ -20,12 +20,29 @@
   <h2 class="h2" id="html">Comments plaatsen in HTML</h2>
   <p>De syntax is: <!-- Plaats hier je comment --></p>
   <h1 class="h1" id="function">Wat is de rol van een functie?</h1>
-  <h2 class="h2" id="store">De opslagfunctie</h2>
-  <p>In een functie zijn instructies opgeslagen.<p>
+  <h2 class="h2" id="store">De opslag- en geheugenfunctie</h2>
+  <p>In een functie zijn instructies opgeslagen in een beappalde volgorde. De instructies worden onthouden en zijn een eigenschap van de functie.<p>
   <h2 class="h2" id="execute">De uitvoeringsfuntie</h2>
-  <p> Als een functie wordt aangeroepen zal deze de instructies die daarin zijn opgeslagen uitvoeren.</p>
-  <h3 class="h3" id="syntax">Wat is de syntax van een functie?</>
-  <p>De syntax van een functie is: function functionName {
+  <p> Als een functie wordt aangeroepen zal deze de instructies die daarin zijn opgeslagen uitvoeren in de aangegeven volgorde.<br>
+  De volgorde van de instructies is dus belang voor de uitvoer. Vergelijk dit maar eens met een auto: je moet eerst de motor starten, voordat de auto gaat rijden.<br>
+  De auto gaat niet rijden als de motor niet is gestart.<br>
+  <br>
+  Stel dit is funtie:<br>
+  function moveCar {
+  drive(100 km/u);
+  motor(on);
+  }
+  Als je bovenstaande functie aanroept zal er niets gebeuren, omdat de auto niet kan rijden zonder dat de motor aan is, je moet eerst de motor aanzetten.
+  
+  De functie zou er dan zo uit moeten komen te zien:
+  function moveCar {
+  motor(on);
+  drive(100 km/u);
+  } 
+  </p>
+  <h3 class="h3" id="syntax">Wat is de syntax van een functie?</h3>
+  <p>De syntax van een functie is: <br>
+  function functionName {
   instruction1(value);
   instruction2(value, value);
   }
